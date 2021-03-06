@@ -1975,7 +1975,7 @@ private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	else
 	{
-		MessageBoxW(NULL, L"Proxy Bulunamadi,Lutfen Programi Kapatip Tekrar Acin! Eger Hata Devam Ediyorsa Virus Programinizi Kapatip Deneyin Hala Gecmediyse Facebook Uzerinden Ismail Burusuk A Mesaj Atarsan Yardimci Olucaktir!", L"Error!", MB_OK | MB_ICONEXCLAMATION);
+		MessageBoxW(NULL, L"Proxy Bulunamadi,Lutfen Programi Kapatip Tekrar Acin! Eger Hata Devam Ediyorsa Virus Programinizi Kapatip Deneyin Hala Gecmediyse YouTube LorenZ GT!", L"Error!", MB_OK | MB_ICONEXCLAMATION);
 
 	}
 	
@@ -2027,7 +2027,7 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 private: System::Void groupBox3_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button1_Click_2(System::Object^ sender, System::EventArgs^ e) {
-	if (File_Exits("Utils\\ResetHosts.exe"))
+	if (File_Exits("Utils\\Proxy.exe"))
 	{
 		ShellExecute(NULL, _T("open"), _T("Utils\\ResetHosts.exe"), NULL, NULL, SW_HIDE);
 		Loglar->Items->Add("Hosts Resetted Succesfuly!");
