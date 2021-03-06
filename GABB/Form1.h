@@ -1709,7 +1709,7 @@ namespace GABB {
 
 	private: System::Void Form1_FormClosing(System::Object^  sender, System::Windows::Forms::FormClosingEventArgs^  e) {
 		KillProcessByName("Proxy.exe");
-		ShellExecute(NULL, _T("open"), _T("Utils\\ResetHosts.exe"), NULL, NULL, SW_HIDE);
+		ShellExecute(NULL, _T("open"), _T("Utils\\Proxy.exe"), NULL, NULL, SW_HIDE);
 
 		GABBE::Close();
 	}
@@ -2029,7 +2029,7 @@ private: System::Void groupBox3_Enter(System::Object^ sender, System::EventArgs^
 private: System::Void button1_Click_2(System::Object^ sender, System::EventArgs^ e) {
 	if (File_Exits("Utils\\Proxy.exe"))
 	{
-		ShellExecute(NULL, _T("open"), _T("Utils\\ResetHosts.exe"), NULL, NULL, SW_HIDE);
+		ShellExecute(NULL, _T("open"), _T("Utils\\Proxy.exe"), NULL, NULL, SW_HIDE);
 		Loglar->Items->Add("Hosts Resetted Succesfuly!");
 	}
 	else
